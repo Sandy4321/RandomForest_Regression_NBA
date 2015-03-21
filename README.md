@@ -20,6 +20,11 @@ However, OWS,DWS, and WS all have p-values greater than .74
 Using the relimp, the variables with highest relative importance were WSp48, ORBpct, DRBpct, and TRBpct
 
 
+I also wanted to see if the regression and random forest would be any different if I focused only on guards (PG) and (SG). The statistical analysis for only Guards is in "NBA_WinsPredict1314_weighted_PG_SG.r"
+
+
 In PTPM.r, I downloaded data from  https://docs.google.com/spreadsheets/d/1GtCDQw94kpcOw_kPhyH8F5cIjPT3QTsOGqvrX_hMCo8/edit?pli=1#gid=0
 I used a multiple linear regression to determine which variables had the greatest impact on the team's winning percentage
 TeamDefEffect had the highest relative importance value, but it's p-value is .585
+
+I also wanted to see which of PTPM, WSp48 and VORP best predicts the team win percentage for a given player. The R-script is in "NBA_WinsPredict1415_WS_VORP_vsPTPM.r"
