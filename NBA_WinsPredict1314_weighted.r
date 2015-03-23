@@ -15,7 +15,7 @@
 #Similarly, Brandom Wright of DAL had a WSp48 of .227 (#8), but VORP of 1.5 (#87)
 
 
-data<-read.csv("leagues_NBA_2013_14.csv") 
+data<-read.csv("leagues_NBA_2013_14_total_edited.csv") 
  data<-subset(data,MP>855)
  cumMP <- by(data = data$MP, INDICES = data$Team, FUN = sum)
  cumMP.df <- data.frame(Team = names(cumMP), cumMP = as.numeric(cumMP))
