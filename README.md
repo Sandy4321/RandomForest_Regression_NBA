@@ -28,3 +28,7 @@ I used a multiple linear regression to determine which variables had the greates
 TeamDefEffect had the highest relative importance value, but it's p-value is .585
 
 I also wanted to see which of PTPM, WSp48 and VORP best predicts the team win percentage for a given player. The R-script is in "NBA_WinsPredict1415_WS_VORP_vsPTPM.r"
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jk34/randomforest_regression_nba/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
